@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/wheat.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -98,6 +98,18 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.resume {
+  margin: 50px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
