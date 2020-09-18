@@ -69,7 +69,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -177,6 +177,20 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.interest-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  border: 3px solid white;
+  right: 0px;
+  display: inline;
+}
+
+.title {
+  margin: 10px auto;
+  
 }
 
 /* Styles for larger screens */
