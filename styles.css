@@ -107,7 +107,6 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
 }
 
 .card:hover {
@@ -184,13 +183,15 @@ a.social:hover {
   height: 150px;
   border-radius: 25%;
   border: 3px solid white;
-  right: 0px;
-  display: inline;
+  float: right;
+}
+
+.debug {
+  border: 3px solid black;
 }
 
 .title {
-  margin: 10px auto;
-  
+  margin-top: 50px;
 }
 
 /* Styles for larger screens */
