@@ -178,6 +178,12 @@ a.social:hover {
   clear: both;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .interest-image {
   width: 150px;
   height: 150px;
@@ -185,6 +191,11 @@ a.social:hover {
   border: 3px solid white;
   float: right;
 }
+
+.resume p {
+  display: inline-block;
+  width: 77%;
+  }
 
 .debug {
   border: 3px solid black;
